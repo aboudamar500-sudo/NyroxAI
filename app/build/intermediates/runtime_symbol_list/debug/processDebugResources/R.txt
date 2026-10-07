@@ -1,0 +1,7 @@
+int color nyrox_accent 0x7f010000
+int color nyrox_background 0x7f010001
+int color nyrox_secondary 0x7f010002
+int color nyrox_surface 0x7f010003
+int color nyrox_text 0x7f010004
+int string app_name 0x7f020000
+int style Theme_NyroxAI 0x7f030000

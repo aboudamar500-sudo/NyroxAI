@@ -1,0 +1,7 @@
+<resources>
+    <color name="nyrox_background">#101114</color>
+    <color name="nyrox_surface">#1A1C20</color>
+    <color name="nyrox_text">#FFFFFF</color>
+    <color name="nyrox_secondary">#A8ABB3</color>
+    <color name="nyrox_accent">#7C5CFF</color>
+</resources>

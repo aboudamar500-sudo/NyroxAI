@@ -1,0 +1,7 @@
+com.nyrox.ai:color/nyrox_text = 0x7f010004
+com.nyrox.ai:string/app_name = 0x7f020000
+com.nyrox.ai:color/nyrox_surface = 0x7f010003
+com.nyrox.ai:color/nyrox_accent = 0x7f010000
+com.nyrox.ai:color/nyrox_secondary = 0x7f010002
+com.nyrox.ai:style/Theme.NyroxAI = 0x7f030000
+com.nyrox.ai:color/nyrox_background = 0x7f010001

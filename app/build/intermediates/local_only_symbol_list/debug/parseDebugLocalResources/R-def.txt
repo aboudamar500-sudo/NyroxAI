@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+color nyrox_accent
+color nyrox_background
+color nyrox_secondary
+color nyrox_surface
+color nyrox_text
+string app_name
+style Theme.NyroxAI

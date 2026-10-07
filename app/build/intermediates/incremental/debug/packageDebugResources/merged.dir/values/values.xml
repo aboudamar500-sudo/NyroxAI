@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nyrox_accent">#7C5CFF</color>
+    <color name="nyrox_background">#101114</color>
+    <color name="nyrox_secondary">#A8ABB3</color>
+    <color name="nyrox_surface">#1A1C20</color>
+    <color name="nyrox_text">#FFFFFF</color>
+    <string name="app_name">Nyrox AI</string>
+    <style name="Theme.NyroxAI" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#101114</item>
+        <item name="android:navigationBarColor">#101114</item>
+        <item name="android:windowBackground">#101114</item>
+    </style>
+</resources>
