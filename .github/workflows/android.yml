@@ -1,4 +1,4 @@
-name: NyroxAI Android Build
+name: Nyrox AI Android Build
 
 on:
   push:
@@ -13,13 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK 21
+      - name: Setup JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
 
-      - name: Set up Android SDK
+      - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
       - name: Build APK
@@ -28,5 +28,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: NyroxAI-debug
+          name: NyroxAI-v0.1.0
           path: app/build/outputs/apk/debug/app-debug.apk

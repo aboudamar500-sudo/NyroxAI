@@ -8,37 +8,41 @@
 8        android:minSdkVersion="23"
 9        android:targetSdkVersion="36" />
 10
-11    <application
-11-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:3:5-21:19
-12        android:allowBackup="true"
-12-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:6:9-35
-13        android:debuggable="true"
-14        android:extractNativeLibs="false"
-15        android:label="Nyrox AI"
-15-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:5:9-33
-16        android:supportsRtl="true"
-16-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:7:9-35
-17        android:theme="@style/Theme.NyroxAI" >
-17-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:4:9-45
-18        <activity
-18-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:9:9-19:20
-19            android:name="com.nyrox.ai.MainActivity"
-19-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:10:13-41
-20            android:exported="true"
-20-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:12:13-36
-21            android:screenOrientation="portrait" >
-21-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:11:13-49
-22            <intent-filter>
-22-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:14:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:15:17-69
-23-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:15:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:16:17-77
-25-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:2:5-67
+11-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:2:22-64
+12
+13    <application
+13-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:4:5-20:19
+14        android:allowBackup="true"
+14-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:7:9-35
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="Nyrox AI"
+17-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:6:9-33
+18        android:supportsRtl="true"
+18-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:8:9-35
+19        android:theme="@style/Theme.NyroxAI" >
+19-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:5:9-45
+20        <activity
+20-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:10:9-18:20
+21            android:name="com.nyrox.ai.MainActivity"
+21-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:11:13-41
+22            android:exported="true"
+22-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:13:13-36
+23            android:screenOrientation="portrait" >
+23-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:12:13-49
+24            <intent-filter>
+24-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:14:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:15:17-69
+25-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:16:17-77
+27-->/data/data/com.termux/files/home/projects/NyroxAI/app/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
